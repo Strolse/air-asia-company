@@ -5,18 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Авиакомпания Air Asia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="#" class="logo">
-            <img src="#" alt="logo-air-asia" class="logo__img">
+          <a href="#" class="logo header__logo">
+            <img src="./img/logo.png" alt="Логотип авиакомпании" class="logo__img">
           </a>
-          <nav class="menu">
+          <nav class="menu header__menu">
             <ul class="menu__list">
-              <li class="menu__item">
+              <li class="menu__item menu__item--active">
                 <a href="#" class="menu__link">Главная</a>
               </li>
               <li class="menu__item">
@@ -36,9 +38,11 @@
       <main class="main-content">
         <section class="hello">
           <div class="container hello__container">
-            <h1 class="hello__title">Авторские туры по Азии</h1>
-            <div class="hello__text">Открой для себя Азию</div>
-            <a href="#" class="button hello__button">Подробнее</a>
+            <div class="hello__content">
+              <h1 class="hello__title">Авторские туры по Азии</h1>
+              <div class="hello__text">Открой для себя Азию</div>
+              <a href="#" class="button hello__button">Подробнее</a>
+            </div>
           </div>          
         </section>
         <section class="offers">
@@ -46,16 +50,18 @@
             <h2 class="title title--fire">Горящие туры</h2>
             <ul class="offers__list">
               <li class="offers__item">
-                <img src="#" alt="picture-country-one" class="offers__img">
+                <div class="offers__header">
+                  <img src="./img/tours/river.png" alt="Таиланд" class="offers__img">
+                </div>
                 <div class="offers__content">
-                  <h4 class="offers__title">Таиланд</h4>
+                  <h3 class="offers__title">Таиланд</h3>
                   <div class="offers__conditions">
-                    <div class="offers__condition">
-                      <img src="#" alt="calendar" class="offers__condition-icon">
+                    <div class="offers__condition offers__condition--days">
+                      <img src="./img/tours/icons/calendar.png" alt="Календарь" class="offers__condition-icon">
                       <div class="offers__condition-text">7-12 ночей</div>
                     </div>
                     <div class="offers__condition">
-                      <img src="#" alt="breakfast" class="offers__condition-icon">
+                      <img src="./img/tours/icons/meal.png" alt="Завтрак" class="offers__condition-icon">
                       <div class="offers__condition-text">Завтраки</div>
                     </div>
                     <p class="offers__description">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
@@ -64,34 +70,38 @@
                 </div>
               </li>
               <li class="offers__item">
-                <img src="#" alt="picture-country-two" class="offers__img">
+                <div class="offers__header">
+                  <img src="./img/tours/pool.png" alt="Бали" class="offers__img">
+                </div>
                 <div class="offers__content">
-                  <h4 class="offers__title">Бали</h4>
+                  <h3 class="offers__title">Бали</h3>
                   <div class="offers__conditions">
-                    <div class="offers__condition">
-                      <img src="#" alt="calendar" class="offers__condition-icon">
+                    <div class="offers__condition offers__condition--days">
+                      <img src="./img/tours/icons/calendar.png" alt="Календарь" class="offers__condition-icon">
                       <div class="offers__condition-text">7-12 ночей</div>
                     </div>
                     <div class="offers__condition">
-                      <img src="#" alt="breakfast" class="offers__condition-icon">
+                      <img src="./img/tours/icons/meal.png" alt="Завтрак" class="offers__condition-icon">
                       <div class="offers__condition-text">Завтраки</div>
                     </div>
                     <p class="offers__description">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-                    <a href="#" class="button button--light">Смотреть</a>
+                    <a href="./img/tours/icons/meal.png" class="button button--light">Смотреть</a>
                   </div>
                 </div>
               </li>
               <li class="offers__item">
-                <img src="#" alt="picture-country-three" class="offers__img">
+                <div class="offers__header">
+                  <img src="/img/tours/ocean.png" alt="Индонезия" class="offers__img">
+                </div>
                 <div class="offers__content">
-                  <h4 class="offers__title">Индонезия</h4>
+                  <h3 class="offers__title">Индонезия</h3>
                   <div class="offers__conditions">
-                    <div class="offers__condition">
-                      <img src="#" alt="calendar" class="offers__condition-icon">
+                    <div class="offers__condition offers__condition--days">
+                      <img src="./img/tours/icons/calendar.png" alt="Календарь" class="offers__condition-icon">
                       <div class="offers__condition-text">7-12 ночей</div>
                     </div>
                     <div class="offers__condition">
-                      <img src="#" alt="breakfast" class="offers__condition-icon">
+                      <img src="./img/tours/icons/meal.png" alt="Завтрак" class="offers__condition-icon">
                       <div class="offers__condition-text">Завтраки</div>
                     </div>
                     <p class="offers__description">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
@@ -107,18 +117,18 @@
             <h2 class="title">Новости и акции</h2>
             <ul class="news__list">
               <li class="news__item">
-                <img src="#" alt="news-picture-one" class="news__img">
+                <img src="./img/news/plain.png" alt="самолет" class="news__img">
                 <div class="news__content">
                   <div class="news__date">Декабрь 2019</div>
-                  <h4 class="news__title">Дешевые путевки на Новый Год!</h4>
+                  <h3 class="news__title">Дешевые путевки на Новый Год!</h3>
                   <p class="news__description">Проведи новый год в Тайланде</p>
                 </div>
               </li>
               <li class="news__item">
-                <img src="#" alt="news-picture-two" class="news__img">
+                <img src="./img/news/surfer.png" alt="серфингист" class="news__img">
                 <div class="news__content">
                   <div class="news__date">Декабрь 2019</div>
-                  <h4 class="news__title">Акция для серфингистов!</h4>
+                  <h3 class="news__title">Акция для серфингистов!</h3>
                   <p class="news__description">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
                 </div>
               </li>
@@ -126,48 +136,46 @@
             <div class="paginator">
               <div class="paginator__display">Страница 1 из 7</div>
               <ul class="paginator__list">
-                <li class="paginator__item">
-                  <span class="paginator__item-span">1</span>
+                <li class="paginator__item paginator__item--active">
+                  <a href="#" class="paginator__link">1</a>
                 </li>
                 <li class="paginator__item">
-                  <span class="paginator__item-span">2</span>
+                  <a href="#" class="paginator__link">2</a>
                 </li>
                 <li class="paginator__item">
-                  <span class="paginator__item-span">3</span>
+                  <a href="#" class="paginator__link">3</a>
                 </li>
                 <li class="paginator__item">
-                  <span class="paginator__item-span">4</span>
+                  <a href="#" class="paginator__link">4</a>
                 </li>
                 <li class="paginator__item">
-                  <span class="paginator__item-span">5</span>
+                  <a href="#" class="paginator__link">5</a>
                 </li>
                 <li class="paginator__item">
-                  <span class="paginator__item-span">6</span>
+                  <a href="#" class="paginator__link">6</a>
                 </li>
                 <li class="paginator__item">
-                  <span class="paginator__item-span">7</span>
+                  <a href="#" class="paginator__link">7</a>
                 </li>
               </ul>
             </div>
           </div>
         </section>
-        <section class="about">
-          <div class="container about__container">
-            <img src="#" alt="view-one" class="about__img">
-          </div>
+        <section class="about container">
           <div class="about__content">
-            <img src="#" alt="view-two" class="about__img">
-            <h2 class="title title-dark">О нас</h2>
-            <p class="about__description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-            <a href="#" class="button about__button">Подробнее</a>
+              <h2 class="title title--dark">О нас</h2>
+              <div class="about__description">
+                 <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних <br>условиях. </p>
+              </div>
+              <a href="#" class="button about__button">Подробнее</a>
           </div>
         </section>
       </main>
     </div>
-    <footer class="footer">
-          <div class="container footer__container">
+    <footer class="footer container">
+          <div class="footer__content">
             <a href="#" class="logo">
-              <img src="#" alt="logo-air-asia" class="logo__img">
+              <img src="./img/logo.png" alt="Логотип авиакомпании" class="logo__img">
             </a>
             <nav class="menu">
               <ul class="menu__list">
@@ -185,22 +193,22 @@
             <ul class="socials">
               <li class="socials__item">
                 <a href="#" class="socials__link">
-                  <img src="#" alt="telegram-icon" class="socials__img">
+                  <img src="./img/socials/telegram.png" alt="telegram-icon" class="socials__img">
                 </a>
               </li>
               <li class="socials__item">
                 <a href="#" class="socials__link">
-                  <img src="#" alt="vk-icon" class="socials__img">
+                  <img src="./img/socials/vk.png" alt="vk-icon" class="socials__img">
                 </a>
               </li>   
               <li class="socials__item">
                 <a href="#" class="socials__link">
-                  <img src="#" alt="fb-icon" class="socials__img">
+                  <img src="./img/socials/fb.png" alt="fb-icon" class="socials__img">
                 </a>
               </li>   
               <li class="socials__item">
                 <a href="#" class="socials__link">
-                  <img src="#" alt="insta-icon" class="socials__img">
+                  <img src="./img/socials/insta.png" alt="insta-icon" class="socials__img">
                 </a>
               </li>                 
             </ul>
