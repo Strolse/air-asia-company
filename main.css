@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
-  /* background: rgb(151, 120, 120); */
+  background: #001821;
 }
 
 * {
@@ -14,7 +14,7 @@ body {
 }
 
 .main-page-wrapper {
-  background: url("./img/background.jpg") center top no-repeat;
+  background: url("./img/background.png") center top no-repeat, url("./img/background-two.png") right bottom 150px no-repeat;
 }
 
 h1, h2, h3 {
@@ -40,9 +40,9 @@ a {
 }
 
 .header {
-  height: 123px;
-  margin-top: 26px;
-  margin-bottom: 50px;
+  height: 150px;
+  padding-top: 26px;
+  margin-bottom: 49px;
 }
 
 .menu {
@@ -53,6 +53,8 @@ a {
 .logo {
   vertical-align: middle;
   margin-right: 76px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .menu__item {
@@ -102,7 +104,7 @@ margin-left: 516px;
 }
 
 .hello__content {
-  width: 520px;
+  max-width: 520px;
   margin-bottom: 246px;
 }
 
@@ -146,13 +148,14 @@ margin-left: 516px;
 
 .title--fire:after {
     content:url("./img/tours/icons/flame.png");
-    padding-left: 12px;
+    margin-left: 12px;
     vertical-align: middle;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
 }
 
 .offers__item {
-  min-height: 449px;
-  background: #fff;
+   background: #fff;
   border-radius: 4px;
   display: inline-block;
   margin-right: 23px;
@@ -167,6 +170,9 @@ margin-left: 516px;
   min-height: 144px;
 }
 
+.offers__img {
+  display: block;
+}
 
 .offers__content {
   padding: 26px 23px;
@@ -224,7 +230,7 @@ margin-right: 28px;
 }
 
 .news {
-  margin-bottom: 144px;
+  margin-bottom: 145px;
 }
 
 .news__list {
@@ -360,14 +366,16 @@ color: #F5170E;
 }
 
 .footer__content {
-  padding-top: 46px;
-  height: 133px;
+  padding-top: 45px;
+  padding-bottom: 57px;
+  height: 146px;
   position: relative;
+  border-top: 4px solid rgb(255 255 255 / 10%);
 }
 
 .socials {
   position: absolute;
-  bottom: 44px;
+  bottom: 61px;
   right: 258px;
 }
 
