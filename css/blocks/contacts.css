@@ -1,0 +1,19 @@
+.contacts {
+  font-style: normal;
+  text-align: right;
+  }
+  
+  .contacts__phone {
+    font-size: 26px;
+    text-decoration: none;
+    margin-bottom: -5px; 
+  }
+  
+  .contacts__info {
+    font-size: 13px;
+    text-decoration: underline;
+  }
+  
+  .contacts__info:hover {
+    /* color: #fff; не уверена */
+  }
