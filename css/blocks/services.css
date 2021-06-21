@@ -1,22 +1,24 @@
 .page-content {
   background: #fff;
   color: #303030;
-  padding: 73px 0 87px;
+  padding: 98px 0 87px;
   }
 
-
 .services {
-  margin-bottom: 40px;
+  margin-bottom: 65px;
+}
+
+.services__item {
+  margin-bottom: 50px;
+}
+
+.services__item:last-child {
+  margin-bottom: 0;
 }
 
 .service {
   display: flex;
   text-decoration: none;
-  padding: 25px 0;
-}
-
-.service:hover {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .service__img {
@@ -52,9 +54,11 @@
   font-weight: bold;
   text-transform: uppercase;
   display: inline-flex;
+  transition: 0.5s;
 }
 
 .service:hover .service__button {
   color:#fff;
   background: #F5170E;
+  transition: 0.5s;
 }

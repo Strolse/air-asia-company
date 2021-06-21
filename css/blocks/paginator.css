@@ -16,11 +16,17 @@ align-items: center;
 
 .paginator__item {
   text-align: center;
+  margin-right: 2px;
+}
+
+.paginator__item:last-child {
+  margin-right: 0;
 }
 
 .paginator__item:hover .paginator__link {
   background: #fff;
   color: #F5170E;
+  transition: 0.3s;
 }
 
 .paginator__item--active .paginator__link {
@@ -36,6 +42,7 @@ color: #F5170E;
   font-weight: bold;
   text-decoration: none;
   line-height: 32px;
+  transition: 0.3s;
 } 
 
 .paginator--dark {
@@ -50,4 +57,5 @@ color: #F5170E;
 .paginator--dark .paginator__item:hover .paginator__link {
   color: #fff;
   background: #F5170E;
+  transition: 0.3s;
 } 

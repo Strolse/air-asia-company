@@ -15,12 +15,9 @@
 .offers__item {
   background: #fff;
   width: calc(100% / 3 - 18px);
+  border-radius: 5px;
 }
 
-
-/* .offer__header {
-  min-height: 144px;
-} */
 
 .offer__img {
   display: block;
@@ -46,7 +43,8 @@
 .offer__conditions {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .offer__condition {
@@ -55,6 +53,7 @@
   align-items: center;
   margin-right: 26px;
   padding-left: 5px;
+  margin-bottom: 10px;
 }
 
 .offer__condition-days:before {
@@ -82,5 +81,6 @@
   color: #303030;
   font-size: 14px;
   line-height: 1.5;
-  margin-bottom: 23px;
+  margin: 0 0 23px;
+
 }

@@ -7,11 +7,12 @@
   font-weight: bold;
   text-transform: uppercase;
   display: inline-flex;
+  transition: 0.5s;
 }
 
 .button:hover {
   background: #DA0100;
-  /* filter: drop-shadow (0 4px 4px rgba(0, 0, 0, 0.25));   */
+  transition: 0.5s;
 }
 
 .button--light {
@@ -22,9 +23,39 @@
   padding-right: 30px;
   align-self: flex-start;
   margin-top: auto;
+  transition: 0.5s;
 }
 
 .button--light:hover {
   color:#fff;
   background: #F5170E;
+  transition: 0.5s;
+}
+
+
+.button--dark {
+  background: #8E8E8E;
+  color: #fff;
+  padding-left: 45px;
+  padding-right: 45px;
+  transition: 0.5s;
+}
+
+.button--dark:hover {
+  background: #2B2B2B;
+  transition: 0.5s;
+}
+
+.button-submit {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.button-submit:hover {
+  background: #F5170E;
+  transition: 0.5s;
+}
+
+.button--welcome {
+  padding: 20px 58px;
 }

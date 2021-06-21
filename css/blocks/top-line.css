@@ -2,7 +2,7 @@
   min-height: 412px;
   display: flex;
   padding-bottom: 23px;
-  background: #001821 url("../../img/headline-services.png") right 20% top no-repeat;
+  background: url("../../img/headline-services.png") right 30% top no-repeat, linear-gradient(109deg, rgba(1,19,29,1) 58%, rgba(1,35,47,1) 84%, rgba(17,57,67,1) 97%);
 }
 
 .top-line__container {

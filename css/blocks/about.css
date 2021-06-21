@@ -6,12 +6,9 @@
   background: url("../../img/about/gates.png") center center / cover no-repeat;
 }
 
-
 .about {
   margin-bottom: 53px;
   display: flex;
-
-
 }
 
 .about__wrapper {

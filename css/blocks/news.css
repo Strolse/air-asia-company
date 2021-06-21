@@ -15,7 +15,7 @@
 
 .single-news {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .news__item:last-child {
